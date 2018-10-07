@@ -16,7 +16,7 @@ from Screens.InfoBar import InfoBar, MoviePlayer
 from boxbranding import getBoxType, getBrandOEM, getMachineBuild
 
 # TODO: remove pNavgation, eNavigation and rewrite this stuff in python.
-class Navigation
+class Navigation:
 	def __init__(self, wakeupData=None):
 		if NavigationInstance.instance is not None:
 			raise NavigationInstance.instance
